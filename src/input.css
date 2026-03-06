@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --color-gray: #7e8cac;
+  --color-navy: #0c145a;
+  --color-abu: #e7eaf5;
+  --color-purple: #4D17E2;
+  --color-card: #F9FAFF
+}
