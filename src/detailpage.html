@@ -33,14 +33,14 @@
     <!-- End : Navbar -->
 
     <!-- Start : Content -->
-    <section class="max-w-6xl mx-auto mt-25">
+    <section class="max-w-6xl mx-auto mt-25 px-4 lg:px-0">
       <h1 class="text-navy text-[32px] font-bold">Top Up</h1>
       <p class="mt-2.5 text-lg text-navy">Perkuat akun dan Jamilah pemenang</p>
 
-      <div class="flex mt-12.5 gap-12.5">
-        <img src="/assets/img/card2.png" class="w-70" alt="" />
+      <div class="flex flex-col lg:flex-row mt-12.5 lg:gap-12.5 gap-4">
+        <img src="/assets/img/card2.png" class="lg:w-70 lg:h-70 w-32 h-32" alt="" />
         <div class="w-full">
-          <h1 class="text-[32px] w-81.75 font-bold text-navy">
+          <h1 class="text-2xl lg:text-[32px] w-81.75 font-bold text-navy">
             Mobile Legends: <br />
             The New Battle 2021
           </h1>
@@ -48,12 +48,12 @@
             Category: Mobile
           </p>
 
-          <div class="flex gap-8 mt-12.5">
+          <div class="flex flex-col lg:flex-row gap-8 mt-12.5">
             <div class="flex flex-col gap-2.5">
               <label for="#" class="text-base text-navy">Verify Nickname</label>
               <input
                 type="text"
-                class="border w-109.25 py-2 px-6 rounded-full border-navy"
+                class="border w-full lg:w-109.25 py-2 px-6 rounded-full border-navy"
                 placeholder="Enter your nickname"
               />
             </div>
@@ -61,7 +61,7 @@
               <label for="#" class="text-base text-navy">Verify ID</label>
               <input
                 type="text"
-                class="border w-92.75 py-2 px-6 rounded-full border-navy"
+                class="border w-full lg:w-92.75 py-2 px-6 rounded-full border-navy"
                 placeholder="Enter your ID"
               />
             </div>
@@ -69,6 +69,130 @@
 
           <div class="mt-12.5">
             <h1 class="text-base text-navy">Nominal Top Up</h1>
+
+            <div class="mt-2.5 flex flex-wrap gap-7.5">
+              <label class="cursor-pointer">
+                <input type="radio" name="gold" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">
+                      125 <span class="font-light">Gold</span>
+                    </h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Rp 3.250.000</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="gold" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">
+                      225 <span class="font-light">Gold</span>
+                    </h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Rp 3.250.000</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="gold" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">
+                      350 <span class="font-light">Gold</span>
+                    </h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Rp 3.250.000</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="gold" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">
+                      550 <span class="font-light">Gold</span>
+                    </h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Rp 3.250.000</p>
+                  </div>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="gold" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">
+                      750 <span class="font-light">Gold</span>
+                    </h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Rp 3.250.000</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="mt-12.5">
+            <h1 class="text-base text-navy">Payment Method</h1>
+
+            <div class="mt-2.5 flex flex-wrap gap-7.5">
+              <label class="cursor-pointer">
+                <input type="radio" name="payment" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">Transfer</h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Worldwide available</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="payment" class="peer hidden" />
+
+                <div
+                  class="relative w-full lg:w-64 p-6 bg-card border-2 border-gray-300 rounded-3xl flex justify-between items-center transition-all duration-300 peer-checked:border-biru peer-checked:bg-gray-100"
+                >
+                  <div>
+                    <h2 class="text-xl lg:text-3xl font-medium text-navy">VISA</h2>
+                    <p class="mt-2 text-base lg:text-lg text-navy">Credit card</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="mt-12.5">
+            <h1 class="text-base text-navy mb-2.5">Bank Account Name</h1>
+            <input
+              type="text"
+              class="border border-navy hover:border-purple py-2 px-6 w-full lg:w-109.25 rounded-full"
+            />
+          </div>
+
+          <div class="mt-12.5">
+            <a
+              href="#"
+              class="bg-purple py-2.5 px-6 text-base text-white rounded-full"
+              >Continue</a
+            >
           </div>
         </div>
       </div>
